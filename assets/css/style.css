@@ -1,0 +1,206 @@
+/* font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto', sans-serif;
+ */
+ @font-face {
+     font-family: santio;
+     src: url(../fonts/Santio\ Bold.ttf) ;
+ }
+body {
+    margin : 0;
+}
+.MainSection {
+    padding-top: 1px;
+    background-image: url("../img/cleo-topper.jpg");
+    background-attachment: fixed;
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+.Logo img {
+    width: 19px;
+    padding-right: 6px;
+    height: 21px;
+    vertical-align: middle;
+}
+.Logo span {
+    display: inline-block;
+}
+.Logo {
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.block p {
+    color: #fff;
+    font-family: santio  ;
+    padding-top: 17vh;
+    padding-left: 18vw;
+    width: 270px;
+    font-size: 60px;
+}
+.block_h {
+    font-family: 'Mr Dafoe', cursive;
+    color: #e7bc0e;
+    padding-left: 18vw;
+    font-size: 25px;
+}
+.Domestic p {
+    font-family: santio;
+    color: #6bc1a3;
+    font-size: 30px;
+    width: 580px;
+    padding-left: 24vw;
+    padding-top: 47vh;
+    line-height: 45px;
+}
+.Domestic p span {
+    background-color: #000;
+    color: #fff;
+}
+
+.workers {
+    padding-left: 18vw;
+}
+.workers h1 {
+        color: #e7bc0e;
+        font-family: santio;
+        font-size: 125px;
+        margin-bottom: 1px ;
+}
+.workers h2 {
+    margin-top: 2px;
+    font-family: santio;
+    color: #e7bc0e;
+    font-size: 40px;
+}
+.workers h2 span {
+    padding: 6px ;
+    background-color: #000000;
+    color: white;
+    padding: 8px 8px 0 8px ;
+}
+.workers  img{
+    width: 125px;
+    padding-top: 47vh;
+}
+.pay {
+    padding-left: 18vw;
+}
+.pay img{
+    width: 125px;
+    padding-top: 47vh;
+    margin-bottom: 40px ;
+}
+.pay h2 {
+    font-family: santio;
+    color: #cb91b6;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+.pay h2 span {
+    background-color: #000;
+    color: #fff; 
+    padding: 8px 8px 0 8px ;
+
+}
+.pay h1 {
+        color: #cb91b6;
+        font-family: santio;
+        font-size: 125px;
+        margin-top: 1px;
+}
+.health {
+    padding-left: 18vw;
+}
+.health img{
+    padding-top: 30px;
+    width: 80px;
+}
+.health h1 {
+        color: #6bc1a3;
+        font-family: santio;
+        font-size: 125px;
+        margin-bottom:  2px;
+}
+.health h2 {
+    margin-top: 3px;
+    font-family: santio;
+    color: #6bc1a3;
+    font-size: 40px;
+}
+.health h2 span {
+    padding: 6px 6px 0 6px;
+    background-color: #000000;
+    color: white;
+}
+.health  img{
+    width: 125px;
+    padding-top: 47vh;
+}
+.mainpara p {
+    padding-bottom:  80px;
+    font-family: santio;
+    color: #7eb8e1;
+    font-size: 30px;
+    width: 900px;
+    padding-left: 24vw;
+    padding-top: 47vh;
+    line-height: 45px;
+}
+.mainpara p span {
+    padding: 8px 8px 0 8px ;
+    color: white;
+    background-color: #000;
+}
+.kidsee {
+    margin-bottom: 0px;
+}
+.see { 
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/kid.png"), url("../img/see.png"); 
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center, center;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-bottom:  550px;
+ }
+footer {
+    background-color: #000;
+    size: 100%;
+}
+footer div p {
+    margin-top: 0px;
+    padding-top: 200px;
+    margin-left: 18vw;
+    color: #fff;
+    width: 150px;
+    font-family: santio;
+    font-size: 70px;
+    width: 600px;
+}
+footer div:nth-of-type(2) button {
+    padding: 20px 40px;
+    margin-left: 18vw;
+    margin-bottom: 90px;
+    color: #fff;
+    font-size: 30px;;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+footer div:nth-of-type(2) button:hover {
+    box-shadow: 5px 5px white;
+}
+footer div:nth-of-type(3) h1 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+footer div:nth-of-type(3) h1 a {
+    text-decoration: none;
+    color: #6bc1a3;
+}
+
+   
